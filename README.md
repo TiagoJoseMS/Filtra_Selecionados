@@ -51,7 +51,7 @@ Este plugin é distribuído sob a licença **GNU General Public License v2 ou po
 - Este plugin é open-source e está aberto para colaboração no repositório oficial do projeto.
 
 #Notas Finais:
-- O Filtra Selecionados representa um avanço significativo na usabilidade e eficiência do QGIS, especialmente para contextos que exigem filtragem de feições selecionadas. Feedback da comunidade é bem-vindo para melhorias futuras.
+- O O Filtra Selecionados foi desenvolvido para aumentar a eficiência no manejo de camadas vetoriais no QGIS. Independentemente do método de seleção utilizado, seja pelas ferramentas do QGIS ou manualmente, o usuário poderá, com apenas um clique, filtrar camadas sem a necessidade de criar consultas complexas e extensas. Feedback da comunidade é bem-vindo para futuras melhorias.
 
 ## Autor
 
