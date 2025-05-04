@@ -1,7 +1,9 @@
 [general]
 name=Filter Selected | Filtra Selecionados
 description=
-	Filters the active layer based on selected features, considering the structure and field types for optimized filtering. 
+	EN: Filters the active layer based on selected features, considering the structure and field types for optimized filtering.Filtra a camada ativa com base nas feições selecionadas, considerando a estrutura e os tipos de campos para uma filtragem otimizada. 
+	
+	PT: Filtra a camada ativa com base nas feições selecionadas, considerando a estrutura e os tipos de campos para uma filtragem otimizada.
 about=
 	EN: This QGIS plugin was developed to enhance the feature filtering experience in vector layers, offering an intelligent and automated solution for executing filters based on the user's selected features. Whether working with editable or non-editable layers (such as CSV or WFS), the plugin adapts to the Attribute Table. In situations where the editable layer does not have a suitable field for filtering, it automatically creates and fills an auxiliary field "id_row_nr" with sequential integer values, ensuring accurate and effective filtering, regardless of the data source, mitigating the possibility of duplication in filtered features. In non-editable layers, the plugin searches for the most suitable field to execute the filter and, if none is found, returns a message to the user.
 	
