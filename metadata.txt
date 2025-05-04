@@ -1,0 +1,20 @@
+[general]
+name=Filtra Selecionados | Filter Selected
+description=
+	Filtra a camada ativa com base nas feições selecionadas, considerando a estrutura e os tipos de campos para uma filtragem otimizada. 
+	 | Filters the active layer based on selected features, considering the structure and field types for optimized filtering.
+about=
+	PT: Este plugin para QGIS foi desenvolvido para aprimorar a experiência de filtragem de feições em camadas vetoriais, oferecendo uma solução inteligente e automatizada para a execução do filtro baseado nas feições selecionadas pelo usuário. Seja trabalhando com camadas editáveis ou não-editáveis (como CSV ou WFS), o plugin a adapta-se a Tabela de Atributos. Em situações onde a camada editável não possui um campo apropriado para filtragem, ele cria e preenche automaticamente um campo auxiliar "id_row_nr" com valores inteiros sequenciais, garantindo uma filtragem precisa e eficaz, independentemente da origem dos dados, mitigando a possibilidade de duplicidade nas feições filtradas. Em camadas não-editáveis o plugin procura o campo mais adequado para executar o filtro e, caso não encontre, retorna uma mensagem ao usuário.
+	
+	EN: This QGIS plugin was developed to enhance the feature filtering experience in vector layers, offering an intelligent and automated solution for executing filters based on the user's selected features. Whether working with editable or non-editable layers (such as CSV or WFS), the plugin adapts to the Attribute Table. In situations where the editable layer does not have a suitable field for filtering, it automatically creates and fills an auxiliary field "id_row_nr" with sequential integer values, ensuring accurate and effective filtering, regardless of the data source, mitigating the possibility of duplication in filtered features. In non-editable layers, the plugin searches for the most suitable field to execute the filter and, if none is found, returns a message to the user.
+icon=icon.png
+version=3.0
+qgisMinimumVersion=3.x
+author=Tiago José M Silva
+email=tiago.moraessilva@hotmail.com
+repository=https://github.com/TiagoJoseMS/Filtra_Selecionados/tree/main
+tracker=https://github.com/TiagoJoseMS/Filtra_Selecionados/issues
+homepage=https://github.com/TiagoJoseMS/Filtra_Selecionados
+tags=filtragem,seleção,camadas,WFS,editavel,não-editavel,fid,id,codigo,filtrar,plugin QGIS,Python,CSV | filtering,selection,layers,WFS,editable,non-editable,fid,id,code,filter,QGIS plugin,Python,CSV
+testedPlatforms=Windows,macOS,Linux
+category=Vector
