@@ -9,6 +9,8 @@ about=
 icon=icon.png
 version=3.0
 qgisMinimumVersion=3.0
+qgisMaximumVersion=4.99
+supportsQt6=True
 author=Tiago José M Silva
 email=tiago.moraessilva@hotmail.com
 repository=https://github.com/TiagoJoseMS/Filtra_Selecionados/tree/main
@@ -17,3 +19,4 @@ homepage=https://github.com/TiagoJoseMS/Filtra_Selecionados
 tags=filtering,selection,layers,WFS,editable,non-editable,fid,id,code,filter,QGIS plugin,Python,CSV | filtragem,seleção,camadas,WFS,editavel,não-editavel,fid,id,codigo,filtrar,plugin QGIS,Python,CSV
 testedPlatforms=Windows,macOS,Linux
 category=Vector
+

@@ -29,7 +29,7 @@ Planejadores urbanos podem usar o Filtra Selecionados para aplicar rapidamente f
 
 #Compatibilidade:
 
-- Versões do QGIS: Compatível com a versão 3.x ou superior.
+- Versões do QGIS: Compatível com a versão 3.0 ou superior.
 - Sistemas operacionais: Testado em Windows, MacOS e Linux.
 
 #Como Usar:

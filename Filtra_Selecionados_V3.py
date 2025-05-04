@@ -1,5 +1,5 @@
 """
-Plugin QGIS 'Filtra Selecionados' - Versão 2.1
+Plugin QGIS 'Filtra Selecionados' - Versão 3.0
 Suporte: Camadas Vetoriais incluindo CSV, KML/KMZ e diversos provedores
 Autor: Tiago José M Silva
 """
@@ -349,7 +349,15 @@ def classFactory(iface):
     """Inicialização padrão do QGIS"""
     return FiltraSelecionadosPlugin(iface)
 
-# Compatibility check for Qt version
+
+# Compatibility check for Qt version (Qt6 first)
+QVariantInt = QMetaType.Type.Int
+QVariantLongLong = QMetaType.Type.LongLong
+QVariantString = QMetaType.Type.QString
+QVariantChar = QMetaType.Type.Char
+QMessageBoxYes = QMessageBox.StandardButton.Yes
+QMessageBoxNo = QMessageBox.StandardButton.No
+
 if QT_VERSION_STR.startswith("5."):
     QVariantInt = QVariant.Int
     QVariantLongLong = QVariant.LongLong
@@ -357,11 +365,4 @@ if QT_VERSION_STR.startswith("5."):
     QVariantChar = QVariant.Char
     QMessageBoxYes = QMessageBox.Yes
     QMessageBoxNo = QMessageBox.No
-else:
-    QVariantInt = QMetaType.Type.Int
-    QVariantLongLong = QMetaType.Type.LongLong
-    QVariantString = QMetaType.Type.QString
-    QVariantChar = QMetaType.Type.Char
-    QMessageBoxYes = QMessageBox.StandardButton.Yes
-    QMessageBoxNo = QMessageBox.StandardButton.No
 
